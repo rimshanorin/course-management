@@ -69,7 +69,7 @@ class User extends Authenticatable implements FilamentUser
             return true;
         }
 
-        // ❌ Otherwise deny accesss
+        // ❌ Otherwise deny access
         return false;
     }
 
